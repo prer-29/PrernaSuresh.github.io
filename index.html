@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerna Suresh - Data Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #6366F1, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hover-lift {
+            transition: transform 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-10px);
+        }
+        /* Customized background color */
+        .bg-dark-gradient {
+            background: linear-gradient(135deg, #6366F1, #3B82F6); /* Gradient from indigo to blue */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text"></div>
+            <div class="space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-indigo-600 transition">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition">Projects</a>
+                <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-indigo-600 to-purple-700 pt-20">
+        <div class="container mx-auto px-6 text-center text-white">
+            <div class="max-w-4xl mx-auto">
+                <img src="C:\Users\prern\OneDrive\Desktop\Picture\20210206_163108.jpg" alt="Prerna Suresh" 
+                     class="mx-auto mb-8 w-64 h-64 object-cover rounded-full border-4 border-white shadow-2xl">
+                <h1 class="text-5xl font-bold mb-4">Prerna Suresh</h1>
+                <p class="text-2xl mb-4 text-gray-200">Data Engineer Professional | ETL Specialist | Cloud Data Solutions</p>
+                <p class="text-lg mb-8 text-gray-300">
+                    <strong>Email:</strong> prernars14@gmail.com<br>
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="C:\Users\prern\OneDrive\Desktop\Hpe\RSM.pdf" class="px-8 py-3 border-2 border-white rounded-full font-semibold hover:bg-white hover:text-indigo-600 transition">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<!-- About Section -->
+<section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">About Me</h2>
+        <div class="flex flex-col items-center space-y-8">
+            <div class="w-full md:w-2/3">
+                <p class="text-lg text-gray-700 mb-4">
+                    Hello! I am Prerna Suresh, a passionate Data Engineer with a strong background in developing and managing large-scale data systems. My expertise spans a range of technologies, including data pipelines, cloud services, and big data frameworks. With over four years of experience in the data engineering field, I have successfully implemented efficient ETL processes and built scalable, real-time analytics pipelines.
+                </p>
+                <p class="text-lg text-gray-700 mb-4">
+                    I hold a Master's degree in Data Science from the University of Texas at Arlington and a Bachelor's degree in Information Technology. I am always looking to learn and grow in the field, exploring new technologies and methodologies to solve complex data challenges.
+                </p>
+                <p class="text-lg text-gray-700">
+                    In my free time, I enjoy exploring new trends in data science, attending tech meetups, and contributing to open-source projects. I am always excited to connect with other professionals and collaborate on innovative solutions that can make a real impact.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Work Experience -->
+<section id="experience" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Work Experience</h2>
+        <div class="space-y-8">
+            <!-- Tek Solve IT Solutions -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Tek Solve IT Solutions</h3>
+                    <span class="text-gray-500">Dallas, TX</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>Data Engineer</em></p>
+                    <span class="text-gray-500">Jul 2024 - Present</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Designed and implemented scalable ETL workflows using Python and SQL to process patient data from multiple sources, reducing data processing time significantly.</li>
+                    <li>Developed real-time analytics pipelines using AWS Kinesis and Python, enhancing patient vitals monitoring and anomaly detection.</li>
+                    <li>Deployed cost-effective solutions using AWS Lambda, reducing fraudulent claims through data validation and auditing.</li>
+                    <li>Created interactive Power BI dashboards to visualize fraud patterns, enabling data-driven decisions.</li>
+                </ul>
+            </div>
+            <!-- University of Texas at Arlington -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">University of Texas at Arlington</h3>
+                    <span class="text-gray-500">Arlington, TX</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>Data Science Grader</em></p>
+                    <span class="text-gray-500">Jan 2024 - May 2024</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Evaluated assignments, quizzes, and exams with consistency, adhering to grading rubrics.</li>
+                    <li>Provided constructive feedback to students, supporting their academic growth and understanding.</li>
+                    <li>Contributed to course material preparation and supported research activities, including data analysis and literature reviews.</li>
+                </ul>
+            </div>
+            <!-- TCS -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">TCS</h3>
+                    <span class="text-gray-500">Chennai, India</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>Assistant System Engineer</em></p>
+                    <span class="text-gray-500">Jan 2021 - Jul 2022</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Developed Python-based ETL pipelines for real-time data import, enabling seamless integration with Woolworths' data systems and improving data accuracy.</li>
+                    <li>Implemented Kafka streaming solutions for real-time inventory management and order fulfillment updates.</li>
+                    <li>Extracted and updated data into HDFS using Sqoop Import from sources like Oracle, Teradata, and SQL Server.</li>
+                    <li>Utilized UC4 for job scheduling and workflow automation to ensure timely execution of ETL tasks.</li>
+                    <li>Optimized Informatica mappings and workflows for efficient data integration and reporting processes.</li>
+                    <li>Developed Python scripts for real-time data validation and anomaly detection, maintaining high data quality.</li>
+                    <li>Used Scala for high-performance data processing in Woolworths' data lake, enabling real-time business insights.</li>
+                    <li>Managed project tasks using Harvest Bench for accurate resource allocation and time tracking.</li>
+                    <li>Implemented Git for version control, including branching, merging, and maintaining ETL code repositories.</li>
+                </ul>
+            </div>
+            <!-- Trios Technology -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Trios Technology</h3>
+                    <span class="text-gray-500">Chennai, India</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>Data Analyst Intern</em></p>
+                    <span class="text-gray-500">Sep 2019 - Nov 2020</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Supported development of ETL workflows for extracting, transforming, and loading data from multiple sources into a centralized repository, ensuring accuracy and consistency.</li>
+                    <li>Utilized Python and SQL to clean and transform data, addressing missing values, normalizing formats, and enriching datasets for enhanced usability.</li>
+                    <li>Integrated data from various sources using Informatica and AWS tools, improving accessibility by 20% for analysis and reporting.</li>
+                    <li>Implemented rigorous data quality checks and validation processes, reducing errors by 15% and ensuring data reliability.</li>
+                    <li>Monitored data flows and proactively resolved issues to maintain high-quality data output.</li>
+                </ul>
+            </div>
+            <!-- MRV InfoTech -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">MRV InfoTech</h3>
+                    <span class="text-gray-500">Chennai, India</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>Software Engineer Intern</em></p>
+                    <span class="text-gray-500">May 2018 - Jun 2019</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Assisted in building and optimizing core application features using Java and Spring Boot, collaborating with senior engineers to implement and test new functionalities.</li>
+                    <li>Integrated third-party APIs using Python and Node.js to enable better communication between internal systems and external data sources, contributing to a 20% increase in system efficiency and data flow.</li>
+                    <li>Developed automated test scripts with Selenium and JUnit to ensure feature functionality, reducing production errors.</li>
+                    <li>Maintained and optimized the codebase, resolving bugs and improving application speed by 10% while supporting CI/CD processes.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+  <section id="education" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Education</h2>
+        <div class="space-y-8">
+            <!-- Education Entry: Master of Science -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Master of Science, Data Science</h3>
+                    <span class="text-gray-500">2024</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>The University of Texas at Arlington</em></p>
+                </div>
+            </div>
+            <!-- Education Entry: Bachelor of Technology -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Bachelor of Technology, Information Technology</h3>
+                    <span class="text-gray-500">2020</span>
+                </div>
+                <div class="flex justify-between items-center mb-2">
+                    <p class="text-gray-600"><em>R.M.K Engineering College</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Development & Programming -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Development & Programming</h3>
+                <ul class="space-y-2">
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+
+            <!-- Big Data & Cloud Technologies -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Big Data & Cloud Technologies</h3>
+                <ul class="space-y-2">
+                    <li>HDFS</li>
+                    <li>Hadoop</li>
+                    <li>Spark</li>
+                    <li>Kafka</li>
+                    <li>Airflow</li>
+                    <li>AWS</li>
+                    <li>Azure</li>
+                    <li>Databricks</li>
+                </ul>
+            </div>
+
+            <!-- Data Integration -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Data Integration</h3>
+                <ul class="space-y-2">
+                    <li>Informatica</li>
+                    <li>Oozie</li>
+                    <li>SQL Server</li>
+                    <li>MongoDB</li>
+                    <li>Spark SQL</li>
+                </ul>
+            </div>
+
+            <!-- Containerization -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Containerization</h3>
+                <ul class="space-y-2">
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
+                </ul>
+            </div>
+
+            <!-- Data Visualization -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Data Visualization</h3>
+                <ul class="space-y-2">
+                    <li>Tableau</li>
+                    <li>Power BI</li>
+                </ul>
+            </div>
+
+            <!-- Software Methodologies -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Software Methodologies</h3>
+                <ul class="space-y-2">
+                    <li>Agile</li>
+                    <li>Scrum</li>
+                    <li>Waterfall</li>
+                </ul>
+            </div>
+
+            <!-- Version Control -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Version Control</h3>
+                <ul class="space-y-2">
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <!-- Testing -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Testing</h3>
+                <ul class="space-y-2">
+                    <li>Selenium</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Projects</h2>
+        <div class="space-y-8">
+            <!-- Project 1: Unraveling Climate Patterns -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Unraveling Climate Patterns and Forecasting Futures</h3>
+                    <span class="text-gray-500">Jan 2024 - May 2024</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Leveraged NOAA's weather datasets, filling gaps using TMAX/TMIN and nearest available data to ensure data reliability.</li>
+                    <li>Developed ARIMA and SARIMA models for annual weather forecasts, achieving an RMSE of 2.89°C.</li>
+                    <li>Cleaned and transformed data to meet modeling requirements, ensuring data integrity for accurate forecasts.</li>
+                    <li>Designed an interactive dashboard to visualize historical and forecasted weather data, focusing on user experience.</li>
+                    <li>Developed an intuitive interface that allows users to explore weather data and forecasts easily.</li>
+                    <li>Applied advanced visualization techniques to make complex climate forecasts accessible to a broad audience.</li>
+                </ul>
+            </div>
+
+            <!-- Project 2: Mask R-CNN for Image Segmentation -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Mask R-CNN for Image Segmentation</h3>
+                    <span class="text-gray-500">Aug 2023 - Dec 2023</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Implemented Mask R-CNN, a cutting-edge image segmentation model, on the COCO dataset.</li>
+                    <li>Utilized ResNet-50 for feature extraction to accurately segment objects within images.</li>
+                    <li>Performed resizing, normalization, and augmentation on the COCO dataset to ensure diverse and representative training data.</li>
+                    <li>Trained the Mask R-CNN model, optimizing hyperparameters to enhance segmentation accuracy.</li>
+                    <li>Validated model performance by comparing predicted masks with ground truth and calculating Intersection over Union (IoU) metrics.</li>
+                    <li>Highlighted Mask R-CNN’s applications in areas like autonomous driving and medical imaging for precise object detection.</li>
+                </ul>
+            </div>
+
+            <!-- Project 3: Analyzing and Visualizing IMDB Database using SQL -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-semibold">Analyzing and Visualizing IMDB Database using SQL</h3>
+                    <span class="text-gray-500">Feb 2023 - Apr 2023</span>
+                </div>
+                <ul class="list-disc pl-6 space-y-1 text-gray-600">
+                    <li>Performed exploratory data analysis (EDA) on the IMDB database to uncover insights related to movie ratings, genres, and revenue.</li>
+                    <li>Designed complex SQL queries to extract and analyze data, creating meaningful visualizations using Tableau.</li>
+                    <li>Developed predictive models to forecast movie success based on historical data, improving the ability to identify high-performing genres.</li>
+                    <li>Collaborated with a team to build interactive dashboards that provide stakeholders with key business insights.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-8 gradient-text">Contact</h2>
+        <div class="space-y-8 text-center">
+            <p class="text-lg text-gray-700">Feel free to get in touch with me for job opportunities, or any questions!</p>
+            <a href="mailto:prernars14@gmail.com" class="inline-block bg-indigo-600 text-white py-3 px-6 rounded-full hover:bg-indigo-700 transition">Send Email</a>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Function to scroll smoothly to each section
+    function goToSection(sectionId) {
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+
+
+
+ <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2024 Prerna Suresh. Designed with ❤️ and Tailwind CSS</p>
+    </footer>
+</body>
+</html>
